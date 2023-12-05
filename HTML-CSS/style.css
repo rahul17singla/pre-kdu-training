@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: antiquewhite;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+/* navbar */
+.navbar {
+    background-color: rgb(240, 176, 176);
+    padding: 1rem 0;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.heading {
+    font-size: 1.7rem;
+    font-weight: 900;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 5rem;
+    color: darkblue;
+    /* border: 1px solid black; */
+}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 7rem;
+}
+.link {
+    text-decoration: none;
+    margin: 0 1rem;
+    color: darkblue;
+    font-weight: 600;
+    transition: all ease 0.4s;
+}
+.link:hover {
+    scale: 1.1;
+}
+
+/* main */
+.main {
+    display: flex;
+}
+.edu-table {
+    margin: 1rem 5rem;
+    /* padding: 1rem; */
+    width: fit-content;
+    text-align: center;
+    font-size: large;
+    /* border: 1px solid black; */
+}
+table,
+td,
+th {
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    border-collapse: collapse;
+}
+.projects {
+    margin-top: 2rem;
+}
+.project-table {
+    margin: 1rem 5rem;
+    width: fit-content;
+    text-align: center;
+    font-size: large;
+}
+
+.skills {
+    margin-top: 2rem;
+}
+/* .skillset {
+    display: flex;
+} */
+.skillset ul {
+    margin: 1rem 5rem;
+    list-style-type: "\2192";
+    width: 50%;
+    text-align: center;
+    font-size: large;
+    /* border: 1px solid black; */
+    padding: 1rem;
+}
+.skillset ul li {
+    /* margin: 1rem 0; */
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    /* border: 1px solid black; */
+}
+/* photo */
+.photo {
+    margin: 5rem 5rem;
+    width: 30rem;
+    height: 30rem;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
